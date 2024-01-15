@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="number" id="numero1" placeholder="Número 1">
+        <input type="number" id="numero2" placeholder="Número 2">
+        <input type="button" id="botao" value="enviar" onclick="acao()">
+        
+        
+        <script>
+            function acao(){
+                let numero1 = parseFloat(document.querySelector("#numero1").value)
+                let numero2 = parseFloat(document.querySelector("#numero2").value)
+
+                if(numero1 == numero2)
+                    alert(numero1+numero2)
+                    
+                else alert(numero1*numero2)
+            }
+                
+            
+
+
+
+
+
+        </script>
+
+
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="number" id="numero1" placeholder="Número 1">
+        <input type="button" id="botao" value="enviar" onclick="acao()">
+
+
+    
+    </form>
+
+    <script>
+     
+    function acao(){
+
+        let numero1 = parseFloat(document.querySelector("#numero1").value)
+        if (numero1 >=0){
+            alert('Positivo')
+        
+
+        }else {
+            alert ('Negativo')
+        } 
+    }
+
+
+        </script>
+
+
+
+
+    
+
+    
+</body>
+</html>
