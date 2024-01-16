@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+    <p>Criar um sistema onde o usuário informa o nome do produto o valor e a forma de pagamento.<br>
+        Se o pagamento for a vista dê um desconto de 10%, caso contrário sem desconto.
+    
+    </p>
+
+    <script>
+
+
+    // Definir ação de clique
+    function acao(){
+
+    // Definir variaveis
+    var produto = document.getElementById("produto").value
+    var valor = parseFloat(document.getElementById("valor").value)
+    var pagamento = document.getElementById("pagamento").value
+
+    // Condicionais
+    var total
+    if (pagamento == 1){
+        total = valor * 0.9
+    }else{
+    total = valor
+    }
+
+
+    // Mensagem
+    document.getElementById("mensagem").innerHTML = "Total a pagar R$ " +total
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+</head>
+
+
+
+<body>
+    <form>
+        <input type ="text" id="produto" placeholder="Produto">
+        <input type ="text" id="valor" placeholder="Valor">
+        <select id= "pagamento">
+            <option value="0">Forma de pagamento</option>
+            <option value="1">A vista</option>
+            <option value="2">A prazo</option> </select>
+            <input type="button" value="enviar" onclick="acao()">
+
+
+
+
+        </form>
+
+        <h1 id="mensagem"></h1> 
+        
+         
+
+
+
+    
+</body>
+</html>

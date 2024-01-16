@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeros</title>
+<p>Desenvolver um sistema onde o usuário informa três números.<br>
+    Quando clicado em um botão, informe qual dos três é o menor.</p>
+
+    <!-- JS -->
+
+    <script>
+
+        function acao(){
+
+        // Definir variáveis
+        var n1 = parseInt(document.getElementById("n1").value)
+        var n2 = parseInt(document.getElementById("n2").value)
+        var n3 = parseInt(document.getElementById("n3").value)
+
+        //Condicionais
+    
+        var menor 
+        if (n1 < n2 && n1 < n3){
+            menor = n1
+        }else if (n2 < n1 && n2 < n3){
+            menor = n2
+        }else{
+            menor = n3
+
+    }
+        
+       
+
+        
+
+
+
+
+
+
+
+
+
+//Exibir o menor
+document.getElementById("mensagem").innerHTML = menor
+        
+        }
+        
+    </script>
+
+
+</head>
+<body>
+    <form>
+        <input type="text" id="n1" placeholder="Primeiro número">
+        <input type="text" id="n2" placeholder="Segundo número">
+        <input type="text" id="n3" placeholder="Terceiro número">
+        <input type="button" value="Verificar" onclick="acao()">
+
+
+
+
+
+    </form>
+
+    <h1 id="mensagem"></h1>
+    
+</body>
+</html>

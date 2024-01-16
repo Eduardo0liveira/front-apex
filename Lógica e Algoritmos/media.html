@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média final</title>
+    
+    <!-- JS -->
+    <script>
+
+        // Definir variaveis
+    
+        function acao(){
+        var nota1 = parseFloat(document.getElementById("nota1").value)
+        var nota2 = parseFloat(document.getElementById("nota2").value)
+        var nota3 = parseFloat(document.getElementById("nota3").value)
+        
+
+        //Condicionais
+        var media = (nota1+nota2+nota3) / 3
+        if (media >= 7) { 
+            alert ('Você passou!')
+        }else if (media >= 5){
+            alert ('Você está em exame.')
+        }else{
+            alert ('Você está reprovado.')
+
+        }
+            
+
+        }
+
+    
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+    <form>
+        <input type="text" id="nota1" placeholder="Nota prova 1">
+        <input type="text" id="nota2" placeholder="Nota prova 2">
+        <input type="text" id="nota3" placeholder="Nota prova 3">
+        <input type="button" value="enviar" onclick="acao()">
+
+
+
+
+
+    </form>
+
+
+
+
+    
+</body>
+</html>

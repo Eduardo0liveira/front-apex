@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 06</title>
+    <p>Desenvolver um sistema onde o usuário informa três números.<br>
+        Quando clicado em um botão, informe qual dos três é o menor.</p>
+    
+    
 
     <!-- JS -->
-    <script></script>
+    <script>
+
+        function menor(){
+            // Obter os dados
+            var n1 = parseInt(document.getElementById("numero1").value)
+            var n2 = parseInt(document.getElementById("numero2").value)
+            var n3 = parseInt(document.getElementById("numero3").value)
+        
+
+        //Menor
+        var menor
+        if (n1 < n2 && n1 < n3){
+           menor = n1
+        }else if (n2 < n1 && n2 < n3){
+            menor = n2
+        }else{
+            menor = n3
+        }
+
+        //Exibir o menor
+        document.getElementById("Mensagem").innerHTML = menor
+
+        }
+
+
+    </script>
 
 
 
@@ -23,7 +52,7 @@
         <input type="text" id="numero1" placeholder="Primeiro número">
         <input type="text" id="numero2" placeholder="Segundo número">
         <input type="text" id="numero3" placeholder="Terceiro número">
-        <input type="button" value="Enviar" onclick="acao()">
+        <input type="button" value="Enviar" onclick="menor()">
 
 
 
