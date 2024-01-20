@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+<body>
+    <input type="number">
+    <button onclick="fatorial()">Realizar fatorial</button>
+
+<script>
+        // Variável contendo o número que será informado
+        //let numero = parseInt(prompt('Informe um número'))
+        
+        // Obter o antecessor
+        //let antecessor = numero - 1
+
+        // Realizar cálculo
+        //let calculo = numero * antecessor;
+
+        // Exibir estrutura
+        //console.log(calculo)
+
+        // Laço de repetição
+        //while(antecessor > 1){
+
+        
+        // Subtrair o antecessor
+        //antecessor--
+
+        // Cálculo
+        //calculo = calculo * antecessor
+
+        // Exibir estrutura
+        //console.log(calculo)
+
+        //}
+        // Exibir o fatorial
+        //document.write(calculo)
+
+        // Função
+       function fatorial(){
+            // Variável contendo o número que será fatorado
+            let numero = parseInt(document.querySelector('input').value)
+
+            // Obter o antecessor
+            let antecessor = numero - 1
+
+            // Realizar cálculo
+            let calculo = numero * antecessor;
+
+            // Exibir estrutura
+            document.write(`${numero} X ${antecessor} = ${calculo} <br>`)
+
+            // Laço de repetição
+            while(antecessor > 1){
+            
+             // Subtrair o antecessor
+             antecessor--
+
+            // Cálculo temporário
+            let calculoTemp = calculo * antecessor
+
+            // Exibir estrutura
+            document.write(`${calculo} X ${antecessor} = ${calculoTemp} <br>`)
+
+            // Atribuir o valor de calculoTemp na variável cálculo
+            calculo = calculoTemp
+
+}
+}
+
+
+        
+
+       
+        
+
+    
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

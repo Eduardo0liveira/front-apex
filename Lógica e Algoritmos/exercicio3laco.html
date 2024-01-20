@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+</head>
+<body>
+    <input type="text" id="numero" placeholder="Informe um número">
+    <button onclick="action()">Enviar</button>
+
+    <!-- JS -->
+    <script>
+    function action(){
+    var numero = parseInt(document.querySelector("#numero").value)
+
+    var indice = 0
+
+    while(indice < 11){
+    numero * indice
+    indice++
+    document.write (numero * indice + "<br>")
+    }
+}
+
+
+
+
+    </script>
+    
+
+
+</body>
+</html>
