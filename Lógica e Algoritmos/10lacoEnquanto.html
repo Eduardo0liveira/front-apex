@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laço enquanto</title>
+</head>
+<body>
+
+    <!-- Parágrafo -->
+    <p></p>
+
+    <!-- JS -->
+    <script>
+    // Obter o elemento P
+    var paragrafo = document.querySelector('p')
+
+    // Laço de repetição
+    var indice = 1
+    while(indice <= 10){
+        paragrafo.innerHTML += indice + "<br>"
+        paragrafo.innerHTML += ' é ' + (indice % 2 == 0 ? 'par' : 'impar')
+        paragrafo.innerHTML += '<br>'
+        indice++
+    }
+
+    </script>
+    
+</body>
+</html>
