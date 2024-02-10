@@ -1,0 +1,145 @@
+/* ESTILO GLOBAL */
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* BODY */
+body {
+  background-image: url(imagens/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #383840;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #38384034;
+}
+header p {
+  font-size: 26px;
+  margin: 20px;
+  color: #fff;
+}
+header a {
+  display: inline-block;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+header a:hover {
+  color: #383840;
+}
+
+/* BANNER */
+.banner {
+  background-color: #fff;
+  margin-left: 50%;
+  margin-top: 50px;
+}
+.banner h1 {
+  font-size: 50px;
+  line-height: 60px;
+}
+.banner p {
+  text-align: justify;
+  margin-top: 50px;
+  font-size: 12px;
+  line-height: 30px;
+}
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* MAIN */
+main {
+  margin-top: 500px;
+  background-color: #fff;
+}
+
+/* SEGMENTOS */
+.segmentos ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.segmentos li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: background-color 1s;
+  padding: 20px;
+  border-radius: 10px;
+}
+.segmentos li:hover {
+  background-color: #383840;
+}
+.segmentos i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.sobre {
+  display: flex;
+}
+.sobre img {
+  width: 50%;
+  padding: 5%;
+}
+.sobre div {
+  padding: 5%;
+}
+.sobre h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.sobre p {
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 30px;
+}
+/* FOOTER */
+footer {
+  display: flex;
+  color: hsla(0, 23%, 91%, 0.643);
+  justify-content: space-between;
+  padding: 10px;
+}
+footer i {
+  margin-left: 10px;
+}
+/* CLIENTES */
+.clientes img {
+  width: 300px;
+  height: 300px;
+}
+/* CONTATO */
+.contato {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contato iframe {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 500px;
+  height: 300px;
+}
+.contato form {
+  width: 700px;
+  margin-top: 30px;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+textarea {
+  height: 200px;
+  resize: none;
+}
