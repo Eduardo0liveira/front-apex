@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width:1200px)">
     <link rel="stylesheet" href="css/tablet.css"  media="screen and (min-width:800px) and (max-width:1199px)">
     <link rel="stylesheet" href="css/mobile.css"  media="screen and (max-width:799px)">
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
 </head>
 <body>
 
@@ -40,8 +44,9 @@
 
 </section>
 
- <!-- Sobre -->
+ <!-- Principal -->
  <main>
+    <!-- Sobre -->
  <section class="sobre">
     <div>
         <h1>Requinte e sofisticação em Blumenau</h1>
@@ -52,7 +57,72 @@
     <img src="imagens/sobre.webp" alt="">
  </section>
 
+ <section class="quartos">
+    <h1>Conheça nossos quartos</h1>
+
+   <div class="quarto owl-carousel owl-theme">
+    <div>
+     <img src="imagens/quarto1.webp" alt="">
+     <h2>Single</h2>
+     <p>R$ 135,00 a diária</p>
+    </div>
+
+    <div>
+     <img src="imagens/quarto2.webp" alt="">
+     <h2>Duplo</h2>
+     <p>R$ 165,00 a diária</p>
+    </div>
+
+    <div>
+     <img src="imagens/quarto3.webp" alt="">
+     <h2>Luxo</h2>
+     <p>R$ 241,00 a diária</p>
+    </div>
+
+    <div>
+     <img src="imagens/quarto4.webp" alt="">
+     <h2>Master</h2>
+     <p>R$ 300,00 a diária</p>
+    </div>
+
+   
+</section>
+   </div>
+
+   <footer>
+    <p>Echo's Hotel 2024 | Todos os direitos reservados</p>
+   </footer>
+
 </main>
+<!-- OWL CAROUSEL -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+<script>
+
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    margin: 30,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    responsiveClass: true,
+    responsive:{
+                    0:{
+                        items:1,
+                        dots: true,
+                        
+                    },
+                    600:{
+                        items:4,
+                        dots: false,
+                    }
+                }
+            });
+    
+</script>
 
     
 </body>

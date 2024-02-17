@@ -18,6 +18,9 @@ header {
   padding-bottom: 5px;
   color: #fff;
 }
+.endereco p:hover {
+  color: burlywood;
+}
 .endereco p {
   padding: 10px;
 }
@@ -99,4 +102,58 @@ section img {
   background-color: #a85432;
   margin-left: 40px;
   color: #fff;
+}
+/* Sobre */
+.sobre {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.sobre h1 {
+  color: #a85432;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.sobre p {
+  color: black;
+  text-align: justify;
+  text-indent: 20px;
+  margin-bottom: 20px;
+}
+.sobre img {
+  width: 500px;
+  padding-right: 100px;
+  align-items: center;
+}
+.sobre a {
+  text-decoration: none;
+  padding: 20px;
+  background-color: #a85432;
+  margin-left: 40px;
+  color: #fff;
+}
+/* Carrossel */
+.quartos {
+  background-color: #ffff;
+}
+.quartos h1 {
+  color: #a85432;
+  padding: 30px;
+  font-size: 30px;
+}
+.quartos h2 {
+  color: #a85432;
+  text-align: center;
+  font-size: 24px;
+}
+.quartos p {
+  color: black;
+  text-align: center;
+}
+/* Footer */
+footer p {
+  text-align: center;
+}
+footer p:hover {
+  color: burlywood;
 }
