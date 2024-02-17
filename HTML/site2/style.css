@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: burlywood;
+}
+/* HEADER */
+header {
+  background-color: black;
+  text-align: center;
+}
+div h1 {
+  text-align: center;
+}
+div h1:hover {
+  color: burlywood;
+}
+.white {
+  color: whitesmoke;
+}
+header a {
+  text-decoration: none;
+  color: burlywood;
+  padding: 2px;
+}
+header a:hover {
+  background-color: wheat;
+  color: black;
+}
+/* BANNER */
+.banner {
+  background-color: black;
+  margin-right: 20%;
+  margin-top: 30px;
+  width: 600px;
+  margin-left: 20px;
+  padding: 10px;
+}
+.banner h3,
+p {
+  color: burlywood;
+}
+.banner img {
+  width: 600px;
+}
+.englobarBanners {
+  display: flex;
+}
+.banner2 {
+  background-color: black;
+  margin-right: 20%;
+  margin-top: 30px;
+  width: 300px;
+  margin-left: 20px;
+  padding: 10px;
+}
+.banner2 p {
+  color: burlywood;
+}
+.banner2 h3 {
+  color: burlywood;
+}
+.banner2 a {
+  text-decoration: none;
+  color: burlywood;
+}
+.banner2 a:hover {
+  color: black;
+  background-color: burlywood;
+}
+.input {
+  margin-left: 10px;
+  padding: 10px;
+}
+.input h3 {
+}
+
+.input input[type="text"] {
+  width: 298px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: solid 1px rgb(146, 146, 146);
+}
+
+.input textarea {
+  width: 298px;
+  padding: 10px;
+  resize: none;
+  border-radius: 10px;
+  border: solid 1px rgb(146, 146, 146);
+}
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+footer:hover {
+  color: red;
+}

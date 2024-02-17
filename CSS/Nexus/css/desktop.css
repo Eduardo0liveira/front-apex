@@ -1,0 +1,114 @@
+/* Cabeçalho */
+header {
+  background-color: #3bacf0;
+  display: flex;
+  justify-content: space-between; /* Alinhamento horizontal */
+  align-items: center; /* Alinhamento vertical */
+  padding: 20px;
+}
+header h1 {
+  color: #fff;
+  font-size: 32px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  border: solid 1px #3bacf0;
+  padding: 15px;
+  transition: border-color 0.5s;
+}
+header a:hover {
+  border-color: #fff;
+}
+/* Banner */
+.banner {
+  background: radial-gradient(
+    ellipse at center,
+    #0097ef 0%,
+    #3bacf0 50%,
+    #3bacf0 50%,
+    #b7d1e5 100%
+  );
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.banner img {
+  width: 500px;
+}
+.banner div {
+  width: 500px;
+}
+.banner h1 {
+  color: #ffff;
+  font-size: 32px;
+}
+.banner p {
+  color: #ffff;
+  margin-top: 24px;
+  text-align: justify;
+  line-height: 24px;
+}
+/* Caracteristicas */
+.caracteristicas {
+  margin-top: 50px;
+}
+.caracteristicas ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.caracteristicas i {
+  font-size: 40px;
+  color: #0f6194;
+  margin-bottom: 20px;
+}
+.caracteristicas li {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #fff;
+  color: #0b5d91;
+}
+.caracteristicas li:hover {
+  color: #3bacf0;
+  border-color: #0097ef;
+  transition: 0.5s;
+}
+/* Sobre */
+.sobre {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.sobre div {
+  width: 500px;
+}
+.sobre img {
+  width: 500px;
+}
+.sobre h1 {
+  font-size: 32px;
+}
+.sobre p {
+  margin-top: 20px;
+  line-height: 24px;
+  text-indent: 20px;
+  text-align: justify;
+}
+/* Rodapé */
+footer {
+  background-color: #0097ef;
+  padding: 20px;
+  margin-top: 20px;
+}
+footer p {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+footer p:hover {
+  color: black;
+}
