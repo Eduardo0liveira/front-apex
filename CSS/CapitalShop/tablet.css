@@ -1,0 +1,138 @@
+/* Topo */
+.header1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header1 img {
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 300px;
+}
+.header1 input[type="text"] {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: none;
+  border: solid 1px #999;
+  padding: 10px;
+  width: 400px;
+}
+.header1 input[type="button"] {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  border: solid 1px #999;
+  border-left: none;
+  background: linear-gradient(
+    to right,
+    #cc0000 0%,
+    #cc0000 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  color: #fff;
+}
+.header1 form {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.header2 {
+  display: flex;
+  justify-content: center;
+  background-color: #cc0000;
+  margin-top: 40px;
+}
+.header2 a {
+  display: inline-block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.header2 a:hover {
+  background-color: #8b0303;
+}
+/* Banner */
+.banner {
+  height: 700px;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  color: #fff;
+}
+.img_banner_index {
+  background-image: url(imagens/banners/3.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.banner h1 {
+  font-size: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.banner p {
+  text-align: justify;
+  padding: 40px;
+  font-size: 20px;
+  line-height: 33px;
+}
+.produtos li:hover {
+  box-shadow: 0px 0px 10px #000;
+}
+/* Conteúdo Principal */
+main {
+  width: 550px;
+  margin: 0 auto;
+}
+.produtos img {
+  width: 250px;
+}
+.produtos ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.produtos li {
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 2px;
+  transition: 0.5s;
+}
+.produtos p:nth-child(2) {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.produtos button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #08c938;
+}
+.produtos li:hover {
+  box-shadow: 0px 0px 10px #000;
+}
+.produtos h1 {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+/* Classe de zoom */
+.zoom {
+  display: inline-block;
+  position: relative;
+}
+
+.zoom img {
+  display: block;
+}
+footer {
+  text-align: center;
+  padding: 4px;
+  background-color: #8b0303;
+  color: #fff;
+}
+footer p:hover {
+  color: #3f0101;
+}
